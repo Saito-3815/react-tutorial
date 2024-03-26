@@ -1,3 +1,7 @@
+import React,{ useState } from "react";
+import {Square} from "./index";
+
+
 export default function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
     // 早期リターンでマスが埋まってたら入力を無効

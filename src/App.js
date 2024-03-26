@@ -1,5 +1,7 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import {Square} from "./components";
+// import {moves} from "./components";
+// import {Board} from "./components";
 
 function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
